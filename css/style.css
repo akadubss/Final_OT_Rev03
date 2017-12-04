@@ -57,26 +57,30 @@
     h2 {
         text-align: center;
         font-family: "BebasNeueBook";
+        text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
     }
     
     p1 {
         text-align: center;
         font-family: "BebasNeueBook";
+        text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
     }
     
     p2 {
         text-align: center;
         font-family: "BebasNeueBook";
+        text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
     }
     
     .UnstyledList {
-        columns: 1em 3;
-        padding: 2em;
+        columns: 1em 2;
+        padding: 1em;
         list-style-type: none;
-        font-weight: 300;
         font-size: 1.5rem;
         color: white;
-        font-family: "BebasNeueBook"
+        font-family: "BebasNeueBook";
+        text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
+        letter-spacing: 1.2px;
     }
     
     .content-wrap {
@@ -252,7 +256,7 @@
     }
     
     .Equipment-text {
-        font-size: 4.5rem;
+        font-size: 5.5rem;
     }
     
     .about-closing-text {
@@ -265,6 +269,10 @@
         position: absolute;
     }
     
+.about-equipment-text {
+    font-size: 1.5rem;
+    letter-spacing: 1.7px;
+}
     @media only screen and (min-width: 40rem) {
         .Hero_Title {
             font-size: 5.5rem;
@@ -477,7 +485,8 @@
         opacity: 0.65;
     }
     
-    .About_Equipment {
+ .About_Equipment {
+
         padding-top: 5em;
         padding-bottom: 5em;
     }
@@ -485,6 +494,11 @@
     @media only screen and (min-width: 40rem) {
         .equipment-parallax {
             padding: 15em 0;
+        }
+        .About_Equipment {
+            background-color: #0F0F0F;
+            
+            
         }
     }
     
@@ -523,6 +537,15 @@
         }
         .about-closing {
             height: 90%
+        }
+    }
+    
+    @media only screen and (min-width: 60rem) {
+        .closing-container {
+            padding: 20em 0;
+        }
+        .closing-container {
+            height: 90%;
         }
     }
     /*==================================*/
