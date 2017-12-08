@@ -22,6 +22,20 @@
         box-sizing: border-box;
     }
     
+/*RETINA DISPLAY*/
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+
+/*IMPORTANT : PLEASE NOTE:
+Just define high resolution version (2x) all of the background images used in your website.
+Example is given below:*/
+
+/*#some-element { background-image: url('../images/my_image@2x.png'); background-size: 200px 100px; } */
+
+/* Please visit: http://retinajs.com/ */
+
+}
+
     html {
         height: 100%;
         width: 100%;
@@ -307,7 +321,10 @@
         .Hero_Title_02 {
             font-size: 4.5rem;
         }
-        .about-hero-text {}
+        .about-hero-text {
+            font-size: 2.5rem;
+            letter-spacing: 7px
+        }
         .About-Hero h1 {
             font-size: 6.5rem;
         }
@@ -323,12 +340,7 @@
         }
     }
     
-    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3.0) and (-min--moz-device-pixel-ratio: 3) and (orientation: portrait) {
-        .about-hero-text {
-            font-size: 1.5rem;
-            letter-spacing: 7px;
-        }
-    }
+
     /*==================================*/
     /*===============Hero===============*/
     /*==================================*/
@@ -499,9 +511,7 @@
         .equipment-parallax {
             padding: 15em 0;
         }
-        .About_Equipment {
-            background-color: #ff;
-        }
+
     }
     
     @media only screen and (min-width: 60rem) {
