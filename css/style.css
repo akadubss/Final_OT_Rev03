@@ -269,11 +269,12 @@
         position: absolute;
     }
     
-.about-equipment-text {
-    font-size: 1.5rem;
-    letter-spacing: 1.7px;
-}
-    @media only screen and (min-width: 40rem) {
+    .about-equipment-text {
+        font-size: 1.5rem;
+        letter-spacing: 1.7px;
+    }
+    
+    @media only screen and (min-width: 40rem) and  {
         .Hero_Title {
             font-size: 5.5rem;
         }
@@ -287,7 +288,7 @@
             font-size: 3.5rem;
         }
         .about-hero-text {
-            font-size: 2em;
+            font-size: 5em;
             letter-spacing: 5px;
         }
         .training-decs-text {
@@ -306,10 +307,7 @@
         .Hero_Title_02 {
             font-size: 4.5rem;
         }
-        .about-hero-text {
-            font-size: 3.5rem;
-            letter-spacing: 7px;
-        }
+        .about-hero-text {}
         .About-Hero h1 {
             font-size: 6.5rem;
         }
@@ -322,6 +320,13 @@
         }
         .about-closing-text {
             font-size: 4.0em;
+        }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3.0) and (-min--moz-device-pixel-ratio: 3) and (orientation: portrait) {
+        .about-hero-text {
+            font-size: 1.5rem;
+            letter-spacing: 7px;
         }
     }
     /*==================================*/
@@ -485,8 +490,7 @@
         opacity: 0.65;
     }
     
- .About_Equipment {
-
+    .About_Equipment {
         padding-top: 5em;
         padding-bottom: 5em;
     }
@@ -497,8 +501,6 @@
         }
         .About_Equipment {
             background-color: #0F0F0F;
-            
-            
         }
     }
     
